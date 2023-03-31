@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: sans-serif;
+}
+
+body{
+  background: #F8C5BD;
+}
+
+header {
+  background: #FC7CC4;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header img {
+  margin: 32px 0;
+}
+
+
+header h1 {
+  background: #DEAAFF;
+  color: #FFFFFF;
+  font-family: 'Staatliches', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0.05em;
+  padding: 8px;
+}
+
+/* 
+.page {
+  max-width: 384px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #D57CFC;
+}
+
+.page h1 {
+  background-color: #FC7CC4;
+  width: 100%;
+} */
+
+.ice {
+  display: grid;
+  gap: 32px;
+  max-width: 384px;
+  margin: 0 auto;
+  padding: 14px 32px 60px;
+}
+
+.ice section {
+  color: #23053A;
+  font-family: 'Palanquin', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.card {
+  width: 320px;
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  
+  border-radius: 20px;
+}
+
+.card h2 {
+
+  color: #FFFFFF;
+  position: absolute;
+  top: 17px;
+  right: 39px;;
+  
+  z-index: 1;
+}
+  
+
+.card h2 span {
+  display: block;
+  width: fit-content;
+  font-family: 'Staatliches', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  background: #F8C5BD;
+  padding: 0 16px;
+  border-radius: 20px;
+}
